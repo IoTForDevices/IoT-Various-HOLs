@@ -1,4 +1,6 @@
 # Azure IoT Central and MXChip HOL
+> NOTE: This HOL makes use of the IoT Central legacy application templates. It is archived and will no longer be maintained.
+
 In this lab you can experience the simplicity of SaaS for IoT, with no cloud expertise required.
 Azure IoT Central is a fully managed IoT SaaS (Software-as-a-Service) solution that makes it easy to connect, monitor and manage IoT assets at scale.
 Using IoT Central gives you the following advantages:
@@ -7,7 +9,7 @@ Using IoT Central gives you the following advantages:
 - Built-in world-class security and privacy
 
 More information about Azure IoT Central, including a getting started video,
-can be found in the [Azure IoT Central documentation](https://docs.microsoft.com/en-us/azure/iot-central/overview-iot-central).
+can be found in the [Azure IoT Central documentation](https://docs.microsoft.com/en-us/previous-versions/azure/iot-central/core/overview-iot-central).
 ## Azure IoT Central Personas
 In this workshop you will learn how to build, use and administer an IoT Central application through the perspective of each of the following personas:
 1) Administrator
@@ -40,8 +42,8 @@ An application created from the **Sample Devkits** application template includes
 
 
 ## Add a real device to your Azure IoT Central application
-Follow [these step-by-step instructions](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit#add-a-real-device) to add a physical device to your IoT Central application, to install the latest firmware on the MXChip DevKit, to setup WiFi and to connect the device securely to the IoT Central application.
-Work to the entire instruction set to see the device's telemetry data and to control the device. Optionally you can also take a look at the device firmware, as described in [this part of the document](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit#review-the-code).
+Follow [these step-by-step instructions](https://docs.microsoft.com/en-us/previous-versions/azure/iot-central/core/howto-connect-devkit#add-a-real-device) to add a physical device to your IoT Central application, to install the latest firmware on the MXChip DevKit, to setup WiFi and to connect the device securely to the IoT Central application.
+Work to the entire instruction set to see the device's telemetry data and to control the device. Optionally you can also take a look at the device firmware, as described in [this part of the document](https://docs.microsoft.com/en-us/previous-versions/azure/iot-central/core/howto-connect-devkit#review-the-code).
 
 ## Use IOTC Explorer to monitor telemetry data
 Use the IoT Central Explorer CLI to see messages your devices are sending to IoT Central and observe changes in the IoT Hub twin. You can use this open-source tool to gain deeper insight into the state of device connectivity and diagnose issues of device messages not reaching the cloud or devices not responding to twin changes.
@@ -82,5 +84,5 @@ Notice the different commands you can give when calling iotc-explorer and at lea
 
 ![ScreenShot](Images/IOTC-06.jpg)
 
-This concludes the HOL on a physical MXChip device connected to an Azure IoT Central application. This is a great starting point for exploring more options of Azure IoT Central. To see what else is possible, please read the [Azure IoT Central Documentation and Quickstarts](https://docs.microsoft.com/en-us/azure/iot-central/).
+This concludes the HOL on a physical MXChip device connected to an Azure IoT Central application. This is a great starting point for exploring more options of Azure IoT Central. To see what else is possible, please read the [Azure IoT Central Documentation and Quickstarts](https://docs.microsoft.com/en-us/previous-versions/azure/iot-central/core/overview-iot-central).
 
