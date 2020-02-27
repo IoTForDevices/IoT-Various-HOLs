@@ -24,6 +24,8 @@ In this workshop you will learn how to build, use and administer an IoT Central 
    - Add new device instances
 
 ## Creating an Azure IoT Central Application
+> NOTE: The actual screen shot to create an application will be different. You need to make sure to select a **Custom Application (Legacy)** template.
+
 This tutorial show you, as an administrator, how to create a new Azure IoT Central application. Navigate to the [Azure IoT Central application manager](https://aka.ms/iotcentral) website. Then sign in with a Microsoft personal, work, or school account.
 To start creating a new Azure IoT Central application, select **New Application**. This link takes you to the **Create an application** page.
 
